@@ -1,4 +1,4 @@
-const core = require("@actions/core");
+import * as core from "@actions/core";
 
 export const action1 = async (): Promise<void> => {
     console.log("Inside Action 1");

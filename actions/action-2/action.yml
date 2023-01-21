@@ -1,0 +1,13 @@
+name: 'Action 2'
+description: 'Action 2'
+author: 'Nipun Harjai'
+inputs:
+  name:
+    description: "name"
+    required: true
+outputs:
+  result:
+    description: "result"
+runs:
+  using: 'node16'
+  main: '../../dist/action-2.js'

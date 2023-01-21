@@ -10,4 +10,4 @@ outputs:
     description: "result"
 runs:
   using: 'node16'
-  main: '../../dist/action-1.js'
+  main: '../../dist/action-1/action-1.js'

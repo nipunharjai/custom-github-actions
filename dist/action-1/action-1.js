@@ -1,5 +1,11 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.action1 = void 0;
+const core = require("@actions/core");
 const action1 = async () => {
-    console.log("Action 1");
+    console.log("Inside Action 1");
+    const number = core.getInput("number");
+    console.log(`Received number = ${number}`);
 };
-action1();
+exports.action1 = action1;
+(0, exports.action1)();
